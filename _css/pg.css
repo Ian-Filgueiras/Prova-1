@@ -3,6 +3,9 @@
     height: 25px;
 }
 
+header {
+    background: rgba(245, 247, 250, 1);
+}
 
 #navbarNav ul li a {
     font-weight: bold;
@@ -26,8 +29,16 @@ a.login {
     color: #28CB8B;
     font-weight: bold;
     text-decoration: none;
-    margin-right: 10px;
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+
+
 }
+
+
 
 a.login:hover {
     color: #1E905D;
@@ -52,11 +63,6 @@ p {
     font-size: 16px;
 }
 
-header {
-    position: sticky;
-
-}
-
 .headerP1 {
     font-weight: bold;
     font-size: 60px;
@@ -72,7 +78,7 @@ header {
     font-size: 25px;
 }
 
-.corFooter{
+.corFooter {
     color: rgba(245, 247, 250, 1) !important;
 }
 
@@ -96,6 +102,8 @@ header nav .container {
 #apresentação {
     width: 100%;
     background: rgba(245, 247, 250, 1);
+    margin-top: 0px;
+    padding-top: 60px;
 }
 
 
@@ -112,16 +120,27 @@ header nav .container {
 }
 
 .carousel-indicators .active {
-    background-color: darkgreen;
+    background-color: darkgreen !important;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
 }
 
 
 .carousel-indicators button {
     background-color: lightgreen !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    margin-bottom: 0px !important;
+}
+
+.carousel-indicators {
+    margin-bottom: 0px;
 }
 
 #Cliente img {
-    margin-inline: 70px;
+    margin-inline: 60px;
 }
 
 #Manage img {
@@ -178,6 +197,7 @@ button {
 
 #Demo {
     background: #F5F7FA;
+    margin-bottom: 0px;
 }
 
 #Demo .container .btn-primary {
@@ -194,16 +214,19 @@ button {
 #CommunityUpdates .A {
     background-image: url(../_img/imageApng.png);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #CommunityUpdates .B {
     background-image: url(../_img/imageB.png);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #CommunityUpdates .C {
     background-image: url(../_img/imageC.png);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -273,7 +296,7 @@ section {
     margin-bottom: 30px;
 }
 
-.margin-top{
+.margin-top {
     margin-top: 25px;
 }
 
@@ -296,8 +319,8 @@ p.footerP {
     color: #F5F7FA;
 }
 
-.bg-custom{
-    background-color: #89939E; 
+.bg-custom {
+    background-color: #89939E;
     border: none;
 }
 
