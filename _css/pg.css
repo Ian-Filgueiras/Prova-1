@@ -63,11 +63,27 @@ header {
 
 }
 
-.headerP2 {
-    font-weight: bold;
-    font-size: 60px;
-    color: #4CAF4F;
+.cor {
+    color: rgb(38, 50, 56, 1) !important;
 }
+
+.corB {
+    color: rgba(255, 255, 255, 1);
+    font-size: 25px;
+}
+
+.corFooter{
+    color: rgba(245, 247, 250, 1) !important;
+}
+
+.headerP2 {
+    color: #4CAF4F !important;
+}
+
+.P3 {
+    color: rgba(137, 147, 158, 1);
+}
+
 
 header p {
     font-size: 25px;
@@ -105,10 +121,8 @@ header nav .container {
     margin-inline: 70px;
 }
 
-#Manage .cardI {
-    width: 299px;
-    height: 260px;
-    margin-inline: 8px;
+#Manage img {
+    margin-bottom: 30px;
 }
 
 #Pixelgrade .container .btn-primary {
@@ -122,6 +136,13 @@ header nav .container {
     border-color: #4CAF4F;
 }
 
+#Pixelgrade h2,
+p,
+button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 #Calender .container .btn-primary {
     top: 288px;
     left: 24px;
@@ -131,6 +152,13 @@ header nav .container {
     opacity: 0px;
     background-color: #4CAF4F;
     border-color: #4CAF4F;
+}
+
+#Calender h2,
+p,
+button {
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 #Dados {
@@ -177,7 +205,7 @@ header nav .container {
 
 
 
-#CommunityUpdates .container .foto {
+div.foto {
     margin-top: 190px;
     padding: 16px 0px 0px 0px;
     gap: 16px;
@@ -185,15 +213,66 @@ header nav .container {
     opacity: 0px;
     background-color: rgba(245, 247, 250, 1);
     box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+    width: 317px;
+    Height: 176px;
+}
+
+.Headline1 {
+
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    color: rgba(77, 77, 77, 1);
+
+}
+
+.Headline2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: rgba(77, 77, 77, 1);
+}
+
+.Headline3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    color: rgba(77, 77, 77, 1);
+}
+
+.Headline4 {
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+
 }
 
 
+.body2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(113, 113, 113, 1);
+}
 
+.body3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(113, 113, 113, 1);
+}
 
 section {
     padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
+.margin-top{
+    margin-top: 25px;
+}
 
 h2 {
     font-weight: bold;
@@ -204,9 +283,21 @@ footer {
 }
 
 h5.footerH {
-    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
 }
 
 p.footerP {
     color: #F5F7FA;
+}
+
+.bg-custom{
+    background-color: #89939E; 
+    border: none;
+}
+
+.form-control::placeholder {
+    color: rgba(217, 219, 225, 1);
 }
