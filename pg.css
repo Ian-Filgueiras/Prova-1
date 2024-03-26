@@ -1,0 +1,125 @@
+
+.logo {
+    width: 30px;
+    height: 25px;
+}
+
+
+#navbarNav ul li a {
+    font-weight: bold;
+}
+
+#navbarNav ul li a:hover {
+    color: #1D438A;
+    background: #00BFB2;
+    border-radius: 5px;
+}
+
+#navbarNav ul li{
+    margin-right: 50px;
+}
+
+#sobre {
+    background: #F5F7FA;
+}
+
+a.login {
+    color: #28CB8B;
+    font-weight: bold; 
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a.login:hover {
+    color: #1E905D; 
+    text-decoration: underline; 
+}
+
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.accordion p {
+    font-size: 16px;
+}
+
+header {
+    position: sticky;
+    
+}
+
+.headerH1 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+header p {
+    font-size: 25px;
+}
+
+header nav .container{
+    width: 80%;
+}
+
+#sobre {
+    margin-top: 100px;
+}
+
+#comoFunciona {
+    background: #F5F7FA
+}
+
+#FAQ {
+    background: #F5F7FA
+}
+
+#FAQ .container {
+    width: 50%;
+
+}
+
+#FAQ .container-fluid {
+    width: 50%;
+}
+
+.back {
+    background: transparent;
+    color: #00BFB2;
+}
+
+
+.logo_footer {
+    height: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section {
+    padding-bottom: 30px;
+}
+
+
+h2 {
+    font-weight: bold;
+}
+
+footer {
+    background: #263238
+    
+}
+
+h5.footerH{
+    color: #FFFFFF;
+}
+
+ p.footerP{
+    color: #F5F7FA;
+}
+.accordion-item {
+    border: 0px;
+}
