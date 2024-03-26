@@ -1,4 +1,3 @@
-
 .logo {
     width: 30px;
     height: 25px;
@@ -15,7 +14,7 @@
     border-radius: 5px;
 }
 
-#navbarNav ul li{
+#navbarNav ul li {
     margin-right: 50px;
 }
 
@@ -25,20 +24,20 @@
 
 a.login {
     color: #28CB8B;
-    font-weight: bold; 
+    font-weight: bold;
     text-decoration: none;
     margin-right: 10px;
 }
 
 a.login:hover {
-    color: #1E905D; 
-    text-decoration: underline; 
+    color: #1E905D;
+    text-decoration: underline;
 }
 
-header nav div .btn-primary{
-    color: #fff; 
-    background-color: #4CAF4F; 
-    border-color: #4CAF4F; 
+header nav div .btn-primary {
+    color: #fff;
+    background-color: #4CAF4F;
+    border-color: #4CAF4F;
 }
 
 h2 {
@@ -55,54 +54,141 @@ p {
 
 header {
     position: sticky;
-    
+
 }
 
-.headerH1 {
+.headerP1 {
     font-weight: bold;
     font-size: 60px;
+
+}
+
+.headerP2 {
+    font-weight: bold;
+    font-size: 60px;
+    color: #4CAF4F;
 }
 
 header p {
     font-size: 25px;
 }
 
-header nav .container{
+header nav .container {
     width: 80%;
 }
 
-#sobre {
-    margin-top: 100px;
+#apresentação {
+    width: 100%;
 }
 
-#comoFunciona {
-    background: #F5F7FA
+#apresentação .container .btn-primary {
+    top: 24px;
+    left: 24px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 4px;
+    opacity: 0px;
+    background-color: #4CAF4F;
+    border-color: #4CAF4F;
 }
 
-#FAQ {
-    background: #F5F7FA
-}
-
-#FAQ .container {
-    width: 50%;
-
-}
-
-#FAQ .container-fluid {
-    width: 50%;
-}
-
-.back {
-    background: transparent;
-    color: #00BFB2;
+.carousel-indicators .active {
+    background-color: darkgreen;
 }
 
 
-.logo_footer {
-    height: 120px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.carousel-indicators button {
+    background-color: lightgreen !important;
 }
+
+#Cliente img {
+    margin-inline: 70px;
+}
+
+#Manage .cardI {
+    width: 299px;
+    height: 260px;
+    margin-inline: 8px;
+}
+
+#Pixelgrade .container .btn-primary {
+    top: 288px;
+    left: 24px;
+    padding: 14px 32px 14px 32px;
+    gap: 10px;
+    border-radius: 4px;
+    opacity: 0px;
+    background-color: #4CAF4F;
+    border-color: #4CAF4F;
+}
+
+#Calender .container .btn-primary {
+    top: 288px;
+    left: 24px;
+    padding: 14px 32px 14px 32px;
+    gap: 10px;
+    border-radius: 4px;
+    opacity: 0px;
+    background-color: #4CAF4F;
+    border-color: #4CAF4F;
+}
+
+#Dados {
+    background: #F5F7FA;
+}
+
+#Customers {
+    background: #F5F7FA;
+}
+
+#Customers img {
+    margin-right: 40px;
+}
+
+#Demo {
+    background: #F5F7FA;
+}
+
+#Demo .container .btn-primary {
+    top: 360px;
+    left: 24px;
+    padding: 14px 32px 14px 32px;
+    gap: 8px;
+    border-radius: 4px;
+    opacity: 0px;
+    background-color: #4CAF4F;
+    border-color: #4CAF4F;
+}
+
+#CommunityUpdates .A {
+    background-image: url(../_img/imageApng.png);
+    background-repeat: no-repeat;
+}
+
+#CommunityUpdates .B {
+    background-image: url(../_img/imageB.png);
+    background-repeat: no-repeat;
+}
+
+#CommunityUpdates .C {
+    background-image: url(../_img/imageC.png);
+    background-repeat: no-repeat;
+}
+
+
+
+#CommunityUpdates .container .foto {
+    margin-top: 190px;
+    padding: 16px 0px 0px 0px;
+    gap: 16px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: rgba(245, 247, 250, 1);
+    box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+}
+
+
+
 
 section {
     padding-bottom: 30px;
@@ -115,16 +201,12 @@ h2 {
 
 footer {
     background: #263238
-    
 }
 
-h5.footerH{
+h5.footerH {
     color: #FFFFFF;
 }
 
- p.footerP{
+p.footerP {
     color: #F5F7FA;
-}
-.accordion-item {
-    border: 0px;
 }
