@@ -95,7 +95,10 @@ header nav .container {
 
 #apresentação {
     width: 100%;
+    background: rgba(245, 247, 250, 1);
 }
+
+
 
 #apresentação .container .btn-primary {
     top: 24px;
@@ -170,7 +173,7 @@ button {
 }
 
 #Customers img {
-    margin-right: 40px;
+    margin-right: 30px;
 }
 
 #Demo {
